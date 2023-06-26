@@ -18,8 +18,7 @@ const Sidebar = ({ navigation }) => {
           <div className="flex flex-col items-center w-full mt-3">
             {navigation.map((item) => (
               <NavLink
-                exact
-                activeClassName="active"
+                exact="true"
                 key={item.name}
                 className="flex items-center w-full h-12 px-3 mt-2 rounded hover:bg-gradient-to-l from-violet-500 to-violet-700 hover:text-white"
                 to={item.href}

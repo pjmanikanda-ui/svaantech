@@ -38,22 +38,6 @@ const CompleteTask = () => {
                   >
                     {task.name}
                   </span>
-                  <div className="flex items-center gap-3">
-                    <input
-                      type="checkbox"
-                      className="form-checkbox rounded-full w-6
-                          border-gray-300
-                          text-indigo-600
-                          shadow-sm
-                          hover:cursor-pointer
-                          focus:border-indigo-300
-                          focus:ring
-                          focus:ring-offset-0
-                          focus:ring-indigo-200
-                          focus:ring-opacity-50"
-                      checked={task.completed}
-                    />
-                  </div>
                 </div>
                 <div
                   className="bg-white px-3 py-2 rounded-b-md"
